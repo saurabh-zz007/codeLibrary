@@ -18,5 +18,8 @@
     <ClCompile Include="buildTree.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="tries.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
