@@ -1,0 +1,21 @@
+# Ignore build results
+Debug/
+Release/
+x64/
+*.obj
+*.exe
+*.pdb
+*.ilk
+*.idb
+
+# Ignore Visual Studio specific files
+.vs/
+*.VC.db
+*.suo
+*.user
+*.ncb
+*.sdf
+*.cache
+*.log
+*.tlog
+*.lastbuildstate
