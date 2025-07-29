@@ -1,45 +1,11 @@
 #include <iostream>
 #include <vector>
 #include <queue>
-
+#include "Node.hpp"
+#include "levelOrder.hpp"
 using namespace std;
 
-class Node {
-public:
-    int data;
-    Node* left = NULL;
-    Node* right = NULL;
 
-    Node(int d) {
-        data = d;
-        left = right = NULL;
-    }
-};
-void levelOrder(Node*& root) {
-    queue<Node*> q;
-    if (root == NULL) return;
-
-    q.push(root);
-    q.push(NULL);
-    while (!q.empty()) {
-        if (q.front() == NULL) {
-            cout << endl;
-            q.pop();
-            if (q.empty())
-                return;
-            q.push(NULL);
-        }
-        Node* temp = q.front();
-        q.pop();
-        if (temp->left != NULL)
-            q.push(temp->left);
-        if (temp->right != NULL)
-            q.push(temp->right);
-
-        cout << temp->data << " ";
-    }
-
-};
 static int idx = -1;
 Node* buildTree(vector<int> preOrder) {
     idx++;
@@ -54,7 +20,7 @@ Node* buildTree(vector<int> preOrder) {
 
 };
 
-int main() {
+/*int main() {
     vector<int> v = {
 1, 2, 4, 8, 16, -1, -1, 17, -1, -1, 9, 18, -1, -1, 19, -1, -1,
 5, 10, 20, -1, -1, 21, -1, -1, 11, 22, -1, -1, 23, -1, -1,
@@ -65,4 +31,4 @@ int main() {
     levelOrder(newNode);
 
     return 0;
-}
+}*/

@@ -127,6 +127,10 @@
     <ClCompile Include="buildTree.cpp" />
     <ClCompile Include="tries.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="levelOrder.hpp" />
+    <ClInclude Include="Node.hpp" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
