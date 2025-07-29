@@ -15,21 +15,24 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="buildTree.cpp">
+    <ClCompile Include="src\BST.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="tries.cpp">
+    <ClCompile Include="src\buildTree.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="BST.cpp">
+    <ClCompile Include="src\tries.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\levelOrder.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Node.hpp">
+    <ClInclude Include="include\Node.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="levelOrder.hpp">
+    <ClInclude Include="include\LevelOrder.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

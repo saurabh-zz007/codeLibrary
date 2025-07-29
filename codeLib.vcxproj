@@ -123,13 +123,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="BST.cpp" />
-    <ClCompile Include="buildTree.cpp" />
-    <ClCompile Include="tries.cpp" />
+    <ClCompile Include="src\BST.cpp" />
+    <ClCompile Include="src\buildTree.cpp" />
+    <ClCompile Include="src\levelOrder.cpp" />
+    <ClCompile Include="src\tries.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="levelOrder.hpp" />
-    <ClInclude Include="Node.hpp" />
+    <ClInclude Include="include\LevelOrder.hpp" />
+    <ClInclude Include="include\Node.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

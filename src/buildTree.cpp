@@ -1,8 +1,9 @@
 #include <iostream>
 #include <vector>
 #include <queue>
-#include "Node.hpp"
-#include "levelOrder.hpp"
+#include "../include/Node.hpp"
+#include "../include/levelOrder.hpp"
+
 using namespace std;
 
 
