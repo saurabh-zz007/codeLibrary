@@ -123,6 +123,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="BST.cpp" />
     <ClCompile Include="buildTree.cpp" />
     <ClCompile Include="tries.cpp" />
   </ItemGroup>
